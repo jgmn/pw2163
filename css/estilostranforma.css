@@ -1,0 +1,40 @@
+article
+{
+	background: greenyellow; /*fondo*/
+	border: 2px solid black; /*borde*/
+	margin: 20px 5px; /*margen exterior*/
+	padding: 15x; /*margen interior*/
+	text-align: center; /*alineación del texto*/
+	width: 400px; /*ancho de la caja*/
+	-moz-transition:all 5s linear; /*Modificar las transiciones para que duren 5 seg y de tipo lineal.*/
+	-ms-transition:all 5s linear;
+	-o-transition:all 5s linear;
+	-webkit-transition:all 5s linear;
+}
+
+article p
+{
+	font: 30px Tahoma;
+	font-weight: bold;
+	width: 100%;
+}
+
+article:hover /*Mouse encima*/    
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: translate(150px, 300px); /*Derecha y abajo*/
+	-ms-transform: translate(150px, 300px);
+	-o-transform: translate(150px, 300px);
+	-webkit-transform: translate(150px, 300px);
+}
+
+article:hover /*Mouse encima*/    
+{
+	background: black;
+	color: greenyellow;
+	-moz-transform: rotate(180deg); /*Derecha y abajo*/
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
