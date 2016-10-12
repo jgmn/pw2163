@@ -1,0 +1,24 @@
+#primerul li
+{
+	display: inline-block;
+	background: red;
+	color: white;
+}
+
+#segundoul
+{
+	background: yellow;
+	color: orange;
+}
+
+.explota
+{
+	background: blue;
+	color: orange;
+}
+
+.samsung
+{
+	background: blue;
+	color: white;
+}
