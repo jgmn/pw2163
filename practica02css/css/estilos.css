@@ -4,14 +4,20 @@ body
 	max-width: 1078px; /*Por decisión de la empresa*/
 	min-width: 1078px;
 	margin: 0px auto; /*Centrar*/
+	border: 1px solid black;
 }
 
 header input
 {
 	float: right;
-	margin-right: -150px;
+	margin-right: -180px;
 	margin-top: 15px;
-	position: relative;
+	position: relative; /*Para sobreponer el input en la imagen*/
+}
+
+header nav
+{
+	margin-left: 220px;
 }
 
 header nav ul li
@@ -21,6 +27,13 @@ header nav ul li
 	color: gray;
 	font-size: 1.8em;
 	margin-right: 15px;
+}
+
+#bgoffer
+{
+	position: relative; /*Para que se mueva dentro de su caja (section)*/
+	top: -410px;
+	left: -35px;
 }
 
 #granthams /*Logo de la empresa*/
@@ -33,4 +46,32 @@ header nav ul li
 {
 	float: right;
 	margin-top: 20px
+}
+#primerseccion
+{
+	margin-top: 75px;
+}
+
+#primerseccion article
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25px;
+}
+
+#secc01art01
+{
+	width: 60%;
+}
+
+#secc01art02
+{
+	width: 30%;
+}
+
+.wecanoffer
+{
+	color: #FF0099;
+	font-size: 3.5em;
+	font-weight: bold;
 }
