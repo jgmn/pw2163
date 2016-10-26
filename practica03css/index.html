@@ -9,8 +9,8 @@
 	<header>
 		<img id="logo" src="img/logo.jpg">
 		<br>
-		<span id="titulo">MI THEMA EN HTML5</span>
-		<div>
+		<span id="mitema">MI THEMA EN HTML5</span>
+		<div id="redes">
 			<img src="img/red1.png">
 			<img src="img/red2.png">
 			<img src="img/red3.png">
@@ -28,47 +28,59 @@
 		</nav>
 	</header>
 
-	<section class="alinear ancho01 margen01">
-		<article>
+	<section id="primeraseccion">
+		<article id="seccion01art01">
 			<img src="img/slider.jpg">
 		</article>
-
-		<article>
-			<span>T&iacute;tulo del Post</span>
-			<br>
-			<img src="img/img-post.jpg">
-			<aside>Por <span>Admin</span> El <span>30/05/2012</span> En <span>Pruebas</span></aside>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<input type="button" name="leermas" value="Leer M&aacute;s...">
+		
+		<br>
+		<article id="seccion01art02">
+			<span id="titulopost">T&iacute;tulo del Post</span>
+			<p>
+			<article id="artimg">
+				<img id="imagen" src="img/img-post.jpg">
+			</article>
+			<article id="arttexto">
+				<span class="infopost">
+					Por <span class="resaltar">Admin</span> El <span class="resaltar">30/05/2012</span> En <span class="resaltar">Pruebas</span>
+				</span>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>
+				<input type="button" name="leermas" value="Leer M&aacute;s...">
+			</article>
 		</article>
 	</section>
 
-	<section class="alinear ancho02 margen02 borde">
-		<article class="centrar margenint01">
+	<section id="segundaseccion">
+		<article class="centrar">
 			<span class="barra">Publicidad</span>
-			<br>
+			<p>
 			<img src="img/publicidad.jpg">
 			<img src="img/publicidad.jpg">
 			<img src="img/publicidad.jpg">
 			<img src="img/publicidad.jpg">
+			<p>
 		</article>
 
-		<article class="centrar margen03 borde">
+		<article class="centrar">
 			<span class="barra">Buscador</span>
-			<br>
+			<p>
 			<form>
 				<input type="search" name="search" placeholder="Search...">
 				<input type="button" name="button" value="GO">
 			</form>
+			<p>
 		</article>
 
-		<article class="margen03 borde">
-			<span class="barra">Categor&iacute;as</span>
+		<article>
+			<span class="barra centrar">Categor&iacute;as</span>
+			<p>
 			<ul>
 				<li>Categor&iacute;a 1</li>
 				<li>Categor&iacute;a 2</li>
@@ -78,6 +90,7 @@
 				<li>Categor&iacute;a 6</li>
 				<li>Categor&iacute;a 7</li>
 			</ul>
+			<p>
 		</article>
 	</section>
 </body>

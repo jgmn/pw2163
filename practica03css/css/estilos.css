@@ -2,62 +2,152 @@ body
 {
 	border: 1px solid red;
 	font-family: arial;
+	font-size: 16px;
 	margin: 0px auto;
 	max-width: 1024px;
-}
-
-header div
-{
-	margin-top: -40px;
-	margin-right: 30px;
-	float: right;
 }
 
 header nav
 {
 	background: #F6661D;
+	border-radius: 8px;
 	margin: 0px auto;
-	border-radius: 5px;
-	padding: 2px 0px 2px 0px;
+	padding: 2px 0px;
 	width: 98%;
 }
 
 header nav ul li
 {
-	color: white;
+	color: #FEFEFE;
 	display: inline-block;
-	font-size: 14px;
 	font-weight: bold;
-	margin-right: 20px;
+	margin-right: 15px;
+}
+
+section
+{
+	display: inline-block;
+}
+
+section article
+{
+	/*border: 1px solid black;*/
+} 
+
+#primeraseccion
+{
+	/*border: 1px solid black;*/
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 616px;
+}
+
+#seccion01art01
+{
+	border-bottom: 1px solid gray;
+} 
+
+#seccion01art02
+{
+	/*Poner un gris más claro*/
+	border-bottom: 1px solid gray;
+}
+
+#seccion01art02 article
+{
+	display: inline-block;
+}
+
+#seccion01art02 input
+{
+	background: rgba(100, 100, 100, 0.5);
+	border-radius: 10px;
+	border: 0px solid gray;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	height: 30px;
+	width: 80px;
+}
+
+#segundaseccion
+{
+	/*border: 1px solid black;*/
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 50px;
+	width: 33%;
+}
+
+#segundaseccion article
+{
+	/*Poner color de borde*/
+	/*border: 5px #C4C6C3;*/
+	border: 1px solid black;
+	margin-bottom: 25px;
+}
+
+#segundaseccion article ul li
+{
+	color: gray;
+	font-weight: bold;
+	/*Agregar líneas punteadas a cada <li>*/
+	/*Poner color negro el text-decoration*/
 }
 
 #logo
 {
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
-#titulo
+#redes
 {
-	font-size: 1.5em;
+	float: right;
+	margin-right: 30px;
+	margin-top: -40px;
+}
+
+#mitema
+{
+	/*Aplicar efecto al título de la página*/
+	color: black;
+	font-size: 20px;
 	font-weight: bold;
-	margin: 0px 0px 50px 25px;
+	margin-left: 20px;
+	/*Separa el título del nav*/
 }
 
-.ancho01
+#titulopost
 {
-	width: 61%;
+	color: gray;
+	font-size: 25px;
+	font-weight: bold;
 }
 
-.ancho02
+.infopost
 {
-	width: 35%;
+	/*vertical-align: top;*/
+	background: rgba(100, 0, 0, 1);
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 15px 0px;
 }
 
-.alinear
+#imagen
 {
-	display: inline-block;
-	vertical-align: top;
+	/*border: 5px #C4C6C3;*/
+	border: 5px solid gray;
+}
+
+#artimg
+{
+	width: 28%;
+}
+
+#arttexto
+{
+	width: 65%;
 }
 
 .centrar
@@ -65,34 +155,20 @@ header nav ul li
 	text-align: center;
 }
 
-.margen01
+.resaltar
 {
-	margin-top: 10px;
-	margin-left: 20px;
-}
-
-.margen02
-{
-	margin-top: 25px;
-	margin-left: 1px;
-}
-
-.margen03
-{
-	margin-top: 20px;
+	color: gray;
+	font-style: italic;
+	font-weight: bold;
+	/*vertical-align: top;*/
 }
 
 .barra
 {
-	color: white;
-	font-family: arial;
+	background: #F6661D;
+	border-radius: 10px;
+	color: #FEFEFE;
 	font-weight: bold;
-	border-radius: 20px;
-	background: #F6661D; 
-	padding: 10px 38.6%;
+	padding: 10px 38.177%;
 }
 
-.borde
-{
-	border: 1px solid gray;
-}

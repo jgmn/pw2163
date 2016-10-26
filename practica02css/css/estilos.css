@@ -42,6 +42,11 @@ header nav ul li
 	margin-left: 25px;
 }
 
+#listadecorreo
+{
+	padding-top: 50px;
+}
+
 #paint
 {
 	float: right;
@@ -64,6 +69,7 @@ header nav ul li
 {
 	text-align: right;
 	margin-right: 180px;
+	margin-top: 20px;
 }
 
 #terceraseccion article
@@ -71,6 +77,11 @@ header nav ul li
 	display: inline-block;
 	width: 22%;
 	vertical-align: top;
+}
+
+#terceraseccion article img
+{
+	vertical-align: middle;
 }
 
 #secc01art01
@@ -81,6 +92,43 @@ header nav ul li
 #secc01art02
 {
 	width: 30%;
+}
+
+#secc01art02 ul
+{
+	list-style: none;
+}
+
+#secc01art02 ul li
+{
+	padding-bottom: 5px;
+}
+
+#secc01art02 ul li:before
+{
+	content: " * ";
+	color: #FF0099;
+}
+
+.colorrosa
+{
+	color: #F4A3C6;
+}
+
+.colorverde
+{
+	color: #A6DE47;
+}
+
+.colorazul
+{
+	color: #16BEF8;
+}
+
+.colorazul,.colorrosa,.colorverde
+{
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .numerotelefono
