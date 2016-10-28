@@ -4,7 +4,7 @@ body
 	max-width: 1078px; /*Por decisión de la empresa*/
 	min-width: 1078px;
 	margin: 0px auto; /*Centrar*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 header input
@@ -29,6 +29,38 @@ header nav ul li
 	margin-right: 15px;
 }
 
+footer
+{
+	height: 130px;
+	background: #516EAC;
+}
+
+footer section
+{
+	display: inline-block;
+}
+
+#facebook
+{
+	left: 800px;
+	position: relative;
+	top: -170px;
+}
+
+#twitter
+{
+	left: 810px;
+	top: -170px;
+	position: relative;
+}
+
+#imagen
+{
+	left: 820px;
+	top: -190px;
+	position: relative;
+}
+
 #bgoffer
 {
 	position: relative; /*Para que se mueva dentro de su caja (section)*/
@@ -45,6 +77,25 @@ header nav ul li
 #listadecorreo
 {
 	padding-top: 50px;
+	padding-left: 20px;
+}
+
+#listadecorreo input[type="text"]
+{
+	width: 60%;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+
+#listadecorreo input[type="button"]
+{
+	height: 26px;
+	color: white;
+	font-weight: bold;
+	background: #54CC14;
+	border: 1px solid gray;
+	border-radius: 3px;
 }
 
 #paint
@@ -52,6 +103,7 @@ header nav ul li
 	float: right;
 	margin-top: 20px
 }
+
 #primerseccion
 {
 	margin-top: 75px;
@@ -68,7 +120,7 @@ header nav ul li
 #segundaseccion article
 {
 	text-align: right;
-	margin-right: 180px;
+	margin-right: 160px;
 	margin-top: 20px;
 }
 
@@ -106,8 +158,43 @@ header nav ul li
 
 #secc01art02 ul li:before
 {
-	content: " * ";
+	content: " • ";
 	color: #FF0099;
+}
+
+#footersection01, #footersection02, #footersection03
+{
+	color: white;
+	font-size: 14px;
+}  
+
+#footersection01
+{
+	width: 40%;
+}
+
+#footersection03 article span
+{
+	border-radius: 20px;
+	border: 1px solid white;
+	padding: 5px 5px;
+}
+
+#footersection01 article	
+{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#footersection02
+{
+	text-align: center;
+	width: 40%;
+}
+
+#footersection03
+{
+	width: 17%;
 }
 
 .colorrosa
@@ -136,6 +223,7 @@ header nav ul li
 	color: #FF0099;
 	font-size: 2em;
 	font-weight: bold;
+
 }
 
 .wecanoffer

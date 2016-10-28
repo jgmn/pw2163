@@ -1,6 +1,6 @@
 body
 {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	font-family: arial;
 	font-size: 16px;
 	margin: 0px auto;
@@ -29,10 +29,10 @@ section
 	display: inline-block;
 }
 
-section article
+/*section article
 {
-	/*border: 1px solid black;*/
-} 
+	border: 1px solid black;
+}*/
 
 #primeraseccion
 {
@@ -42,16 +42,10 @@ section article
 	width: 616px;
 }
 
-#seccion01art01
+#seccion01art01, #seccion01art02
 {
 	border-bottom: 1px solid gray;
 } 
-
-#seccion01art02
-{
-	/*Poner un gris más claro*/
-	border-bottom: 1px solid gray;
-}
 
 #seccion01art02 article
 {
@@ -61,8 +55,8 @@ section article
 #seccion01art02 input
 {
 	background: rgba(100, 100, 100, 0.5);
-	border-radius: 10px;
-	border: 0px solid gray;
+	border-radius: 5px;
+	border: 0px;
 	color: white;
 	font-style: italic;
 	font-weight: bold;
@@ -81,18 +75,56 @@ section article
 
 #segundaseccion article
 {
-	/*Poner color de borde*/
-	/*border: 5px #C4C6C3;*/
-	border: 1px solid black;
+	background: #FAF8F1;
+	border-radius: 5px;
+	border: 1px solid gray;
 	margin-bottom: 25px;
+}
+
+#segundaseccion article ul
+{
+	padding-right: 35px; /*Separar los bordes punteados de la derecha*/
+	padding-left: 20px;
+	list-style: none;
+}
+
+#segundaseccion article ul li:before
+{
+	content: " • ";
+	color: black;
 }
 
 #segundaseccion article ul li
 {
+	border-bottom-style: dotted; /*Borde punteado*/
+	border-color: gray;
+	border-width: 1px;
 	color: gray;
 	font-weight: bold;
-	/*Agregar líneas punteadas a cada <li>*/
-	/*Poner color negro el text-decoration*/
+	margin-bottom: 15px; /*Separar los <li>*/
+}
+
+#segundaseccion article form 
+{
+	border-radius: 20px;
+	border: 1px solid gray;
+	width: 80%; /*Hacer más pequeño el buscador*/
+	margin: 0px auto; /*Centrar el buscador*/
+}
+
+#segundaseccion article form input
+{
+	border-radius: 20px;
+	border: 1px solid gray;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+
+#segundaseccion article form input[type="button"]
+{
+	background: #D4D2CC;
+	color: white;
+	font-weight: bold;
 }
 
 #logo
@@ -105,17 +137,19 @@ section article
 {
 	float: right;
 	margin-right: 30px;
-	margin-top: -40px;
+	margin-top: -60px;
 }
 
 #mitema
 {
 	/*Aplicar efecto al título de la página*/
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-	margin-left: 20px;
-	/*Separa el título del nav*/
+	-moz-text-stroke: 1px gray;
+	-ms-text-stroke: 1px gray;
+	-webkit-text-stroke: 1px gray;
+	margin-left: 30px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #titulopost
@@ -127,27 +161,34 @@ section article
 
 .infopost
 {
-	/*vertical-align: top;*/
-	background: rgba(100, 0, 0, 1);
-	border-radius: 5px;
+	background: #FAF8F1;
+	border-radius: 15px;
+	border: 1px solid gray;
 	font-size: 12px;
 	padding: 15px 0px;
+	padding-right: 188px;
 }
 
 #imagen
 {
-	/*border: 5px #C4C6C3;*/
 	border: 5px solid gray;
 }
 
 #artimg
 {
 	width: 28%;
+	margin-right: 5px;
 }
 
 #arttexto
 {
+	padding-top: 13px;
 	width: 65%;
+}
+
+#artimg, #arttexto
+{
+	vertical-align: top;
 }
 
 .centrar
@@ -160,15 +201,23 @@ section article
 	color: gray;
 	font-style: italic;
 	font-weight: bold;
-	/*vertical-align: top;*/
 }
 
 .barra
+{
+	padding: 10px 38%; /*Ancho para del título "Publicidad" y "Categorías"*/
+}
+
+.barra2
+{
+	padding: 10px 39%; /*Ancho del título "Buscador"*/	
+}
+
+.barra,.barra2
 {
 	background: #F6661D;
 	border-radius: 10px;
 	color: #FEFEFE;
 	font-weight: bold;
-	padding: 10px 38.177%;
 }
 
