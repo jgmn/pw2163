@@ -6,6 +6,14 @@ function operadores(op)
 	operador = op;
 }
 
+function limpiar()
+{
+	operador = "";
+	document.calculadora.operando1.value = 0;
+	document.calculadora.operando2.value = 0;
+	document.calculadora.resultado.value = 0;
+}
+
 function igual()
 {
 	var valor1 = document.calculadora.operando1.value;
