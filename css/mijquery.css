@@ -1,0 +1,9 @@
+#imgFoto
+{
+	border-radius: 100px;
+}
+
+#txtNombre, #imgFoto
+{
+	display: none; /*Se oculta*/
+}
