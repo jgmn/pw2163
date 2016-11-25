@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sistema de prueba</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"
+  	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<h1>Sistema de prueba</h1>
+		<img src="imagenes/LOGO_TEC_PNG_OK.png" alt="Logo" class="img-rounded">
+		<nav>
+			<ul>
+				<button class="btn btn-default">
+					<span class="glyphicon glyphicon-home" aria-hidden="true"> Inicio</span>
+				</button>
+				<button class="btn btn-primary">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"> Alta</span>
+				</button>
+				<button class="btn btn-danger">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"> Baja</span>
+				</button>
+				<button class="btn btn-warning">
+					<span class="glyphicon glyphicon-edit" aria-hidden="true"> Cambio</span>
+				</button>
+				<button class="btn btn-info">
+					<span class="glyphicon glyphicon-list-alt" aria-hidden="true"> Consulta</span>
+				</button>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="entradaUsuario">
+		<article>
+			<div class="panel panel-primary">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Datos de usuario</h3>
+			  </div>
+			  <div class="panel-body">
+			    <input type="text" id="txtUsuario" class="form-control" placeholder="Nombre de usuario" autofocus>
+			    <input type="password" id="txtClave" class="form-control" placeholder="Contraseña">
+			    <button id="btnValidaUsuario" class="btn btn-primary btn-lg btn-block">Entrar</button>
+			  </div>
+			</div>
+		</article>
+	</section>
+</body>
+</html>
