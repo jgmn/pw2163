@@ -1,0 +1,35 @@
+body
+{
+	max-width: 1024px;
+	margin: 0px auto;
+}
+
+header
+{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+header img
+{
+	float: right;
+	width: 100px;
+	margin-top: -70px;
+}
+
+header nav
+{
+	display: none;
+}
+
+header nav ul li
+{
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#entradaUsuario
+{
+	margin: 0px auto;
+	width: 350px;
+}
