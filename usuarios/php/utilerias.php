@@ -40,9 +40,9 @@
 		$resultado = mysql_query($consulta);
 
 		//Esperamos un solo resultado.
-		if(mysql_num_rows(result) == 1)
+		if(mysql_num_rows($resultado) == 1)
 		{
-			respuesta = true;
+			$respuesta = true;
 		}
 
 		//Convertir respuesta a JSON.

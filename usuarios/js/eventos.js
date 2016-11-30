@@ -32,7 +32,7 @@ var inicioUsuarios = function()
 					}
 					else
 					{
-						alert("Datos incorrectos :(");
+						alert("Datos incorrectos.");
 					}
 				},
 				error: function(xhr, ajaxOptions, thrownError){
@@ -43,7 +43,7 @@ var inicioUsuarios = function()
 		}
 		else
 		{
-			alert("Datos obligatorios");
+			alert("Usuario y clave obligatorios.");
 		}
 	}
 
