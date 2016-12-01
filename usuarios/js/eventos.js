@@ -1,6 +1,6 @@
 var inicioUsuarios = function()
 {
-	validaUsuario = function()
+	var validaUsuario = function()
 	{
 		//Extraer los datos de los input en el HTML.
 		var usuario = $("#txtUsuario").val();
@@ -11,7 +11,6 @@ var inicioUsuarios = function()
 						 "&usuario="+usuario+
 						 "&clave="+clave+
 						 "&id="+Math.random();
-
 
 		//Validamos que no estén vacíos.
 		if(usuario!="" && clave!="")
@@ -47,7 +46,29 @@ var inicioUsuarios = function()
 		}
 	}
 
+	var alta = function()
+	{
+		$("#altaUsuario").show("slow");
+	}
+
+	var guardaUsuario = function()
+	{
+		//Guarda un usuario.
+	}
+
+	//keypress: se ejecuta cada que se presionó una tecla sobre el input.
+	var teclaClave = function(tecla)
+	{
+		if(tecla.which == 13)
+		{
+			validaUsuario();
+		}
+	}	
+
 	$("#btnValidaUsuario").on("click", validaUsuario);
+	$("#btnAlta").on("click", alta);
+	$("#btnGuardaUsuario").on("click", guardaUsuario);
+	$("#txtClave").on("keypress", teclaClave);
 }
 
 //Evento inicial.

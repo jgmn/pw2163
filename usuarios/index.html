@@ -18,7 +18,7 @@
 				<button class="btn btn-default">
 					<span class="glyphicon glyphicon-home" aria-hidden="true"> Inicio</span>
 				</button>
-				<button class="btn btn-primary">
+				<button class="btn btn-primary" id="btnAlta">
 					<span class="glyphicon glyphicon-ok" aria-hidden="true"> Alta</span>
 				</button>
 				<button class="btn btn-danger">
@@ -38,7 +38,7 @@
 		<article>
 			<div class="panel panel-primary">
 			  <div class="panel-heading">
-			    <h3 class="panel-title">Datos de usuario</h3>
+			    <h3 class="panel-title">Datos de Usuario</h3>
 			  </div>
 			  <div class="panel-body">
 			    <input type="text" id="txtUsuario" class="form-control" placeholder="Nombre de usuario" autofocus>
@@ -48,5 +48,21 @@
 			</div>
 		</article>
 	</section>
+
+	<main>
+		<article id="altaUsuario">
+			<h2>Alta de Usuarios</h2>
+			<input type="text" id="txtUsuario" placeholder="Usuario" class="form-control">
+			<input type="text" id="txtNombre" placeholder="Nombre" class="form-control">
+			<input type="text" id="txtClave" placeholder="Clave" class="form-control">
+			<select name="txtTipo" id="txTipo" class="form-control">
+				<option value="Ninguno">Seleccione una opción</option>
+				<option value="Administrador">Administrador</option>
+				<option value="Invitado">Invitado</option>
+				<option value="Colado">Colado</option>
+			</select>
+			<button id="btnGuardarUsuario" class="btn btn-success btn-lg btn-block">Guardar</button>
+		</article>
+	</main>
 </body>
 </html>

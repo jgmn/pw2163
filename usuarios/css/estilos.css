@@ -28,6 +28,13 @@ header nav ul li
 	display: inline-block;
 }
 
+main article/*#altaUsuario*/
+{
+	display: none;
+	margin: 0px auto;
+	width: 400px;
+}
+
 #entradaUsuario
 {
 	margin: 0px auto;
